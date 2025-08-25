@@ -562,10 +562,20 @@ footer span a:hover{
         margin-left: 0px;
     }
 }
+@media (max-width: 1210px){
+    .projects .carousel .card img{
+        height: 250px;
+        width: 250px;
+    }
+}
 @media (max-width:1104px){
     .about .about-content .left img{
         height: 350px;
         width: 350px;
+    }
+    .projects .carousel .card img{
+        height: 200px;
+        width: 200px;
     }
 }
 @media (max-width:991px){
@@ -639,6 +649,7 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
+    
 }
 @media (max-width:690px){
     .max-width{
@@ -655,6 +666,16 @@ footer span a:hover{
     }
     .services .serv-content .card{
         width: 100%;
+    }
+    .projects .carousel .card img{
+        height: 175px;
+        width: 175px;
+    }
+}
+@media (max-width:595px) {
+    .projects .carousel .card img{
+        height: 300px;
+        width: 300px;
     }
 }
 @media (max-width:500px){
